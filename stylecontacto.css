@@ -1,0 +1,261 @@
+/*Hoja de estilos contacto*/
+
+body{
+    background-color: #FFFFFF;
+}
+#contenedorcontacto{
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+header{
+    width: 960px;
+    height: 200px;    
+	margin-bottom: 40px;
+}
+
+#logo2 {
+	width: 500px;
+	height: 120px;
+	padding:auto;
+}
+
+img {
+	border: double 5px #000000;
+	-moz-box-shadow: 6px 6px 12px #141333;
+    -webkit-box-shadow: 6px 6px 12px #141333;
+    box-shadow: 6px 6px 12px #141333;
+}
+
+.botoneracontacto {
+	float: right;
+	width: 600px;
+	margin-top: 30px;
+	position: relative;
+	height: 100px;
+}
+
+.botoneracontacto ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.botoneracontacto ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.botoneracontacto ul li a {
+	display: block;
+	padding: 10px;
+	width: 70px;
+	margin-right: 10px;
+	color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large; 
+	text-decoration: none;
+}
+.botoneracontacto li a:hover {
+	color: #3355bb;
+}
+
+.submenucontactservice {
+	position:absolute;
+	width: 140px;
+	display: none;
+	background-image: url(imagenes/INDUSTRPROTOTYPE.png);
+}
+
+.submenucontactservice li a {
+  display: block;
+  padding: 5px;
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.botoneracontacto li:hover .submenucontactservice {
+	display:block;
+}
+
+#contenidocontacto {
+    width: 930px;
+	height: auto;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	text-align: justify;
+	font-size: 16px;
+}
+
+footer {
+    background-image: url("imagenes/INDUSTRPROTOTYPE.png");
+    width: 960px;
+    height: 50px;
+	clear: both;
+	-moz-box-shadow: 6px 6px 12px #141333;
+    -webkit-box-shadow: 6px 6px 12px #141333;
+    box-shadow: 6px 6px 12px #141333;
+	
+}
+
+footer p {
+    padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+    font-weight: bold; 
+    text-align: center;
+}
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+	
+	#contenedorcontacto{
+		width: 580px;
+		position: relative;
+	}
+
+	header{
+		width: 580px;
+		height: 120px;    
+	}
+	
+	#logo2 {
+		width: 580px;
+		float: none;
+		position: relative;
+	}
+
+	img {
+	width: 580px;
+	float: none;
+	position:relative;
+
+	}
+	
+	.botoneracontacto {
+		width: 500px;
+		margin-top: -40px;
+		float: center;		
+	}
+	
+	.botoneracontacto ul li{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.botoneracontacto ul li a {
+		padding: 4px;
+		width: 90px;
+	}
+	
+	.submenucontactservice {
+		position:absolute;
+		width: 120px;
+		display: none;
+	}
+	
+	.submenucontactservice li a {
+	  display: block;
+	}
+	
+	.botoneracontacto li:hover .submenucontactservice {
+		display:block;
+	}
+	
+	#contenidocontacto {
+		width: 580px;
+		height: auto;
+	}
+	
+	footer {
+		width: 580px;		
+	}
+	
+
+}
+
+@media handheld, screen and (max-width: 599px){
+
+	#contenedorcontacto{
+		width: 90%;
+		height: auto; 
+		position: relative;
+	}
+
+	header{
+		width: 100%;
+		height: auto;    
+	}
+	
+	#logo2 {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+
+	img {
+	    width: 100%;
+	    height: auto;
+	}
+	
+	.botoneracontacto {
+		width: 100%;
+		height: auto;
+		margin-top: 5%;	
+	}
+	
+	.botoneracontacto ul li{
+		display: block;
+		padding: 10px;
+	}
+	
+	.botoneracontacto ul li a {
+		display: block;
+		padding: 3%;
+		width: 94%;
+		background-color: #141333;
+		margin-right: 0px;
+		border-radius: 1em;
+		margin-bottom: 0.5em;
+		text-align: center;
+	}
+	
+	.submenucontactservice {
+		width: 94%;
+		display:none;
+		margin-right: 0px;
+		border-radius: 1em;
+		margin-bottom: 0.5em;
+		background-image: none;
+		z-index: 2;
+	}
+	
+	.submenucontactservice li a {
+		padding: 5px;
+		background-color: #141333;
+		position: relative;
+	}
+	
+	.botoneracontacto li:hover .submenucontactservice {
+		display:block;
+	}
+	
+	#contenidocontacto {
+		width: 100%;
+		height: auto;
+	}
+	
+	footer {
+		width: 100%;
+		height: auto;
+		position:relative;	
+	}
+
+}
